@@ -1,5 +1,7 @@
 package Bikes;
 
+//Programa que calcula el alquiler de bicicletas, dependiendo de si es por hora, día, semana o una promo familiar.
+
 public class BikeRentals {
 	
 	private int byHour = 5;
@@ -9,10 +11,11 @@ public class BikeRentals {
 	private double discount;
 	private double promo;
 	
-	
+	//Constructor
 	public BikeRentals() {
 		
 	}
+	//Métodos de cálculo según tipo de alquiler
 	
 	public int getByHour(int rentals) {
 		int total = rentals * byHour;
@@ -31,6 +34,7 @@ public class BikeRentals {
 		return total;
 		
 	}
+	//Método para calcular la promo familiar
 	
 	public double getPromo(String tipo, double rentals) {
 		if (rentals > 2 && rentals < 6)
