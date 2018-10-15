@@ -1,8 +1,9 @@
 package Bikes;
 
 import static org.junit.Assert.*;
-
 import org.junit.Test;
+
+//Programa de prueba unitaria con JUnit
 
 public class BikeRentalsTest {
 
