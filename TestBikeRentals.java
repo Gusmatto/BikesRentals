@@ -1,5 +1,7 @@
 package Bikes;
 
+//Programa principal de cálculo de alquileres
+
 public class TestBikeRentals {
 
 	public static void main(String[] args) {
